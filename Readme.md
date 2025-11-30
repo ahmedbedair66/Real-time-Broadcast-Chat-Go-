@@ -1,4 +1,4 @@
-# Broadcast Chat System in Go
+# Assignment 04 – Real-Time Go Chat
 
 ## Description
 A real-time chat system implemented in Go using TCP sockets, goroutines, channels, and mutex.
@@ -11,20 +11,18 @@ Messages are broadcast instantly to all connected clients except the sender.
 - Goroutines and channels for concurrency
 - Mutex for client list synchronization
 
-## How to Run the Project
+## How to Run
 
-### Run Server:
-
+### 1. Start server:
+```
 go run server.go
+```
 
-
-### Run Client:
-
+### 2. Start clients (multiple terminals):
+```
 go run client.go
+```
 
 
 (Open multiple terminals for multiple clients)
 
-## Assignment Notes
-This project was developed as part of Assignment 04.
-It demonstrates real-time communication using Go concurrency.
